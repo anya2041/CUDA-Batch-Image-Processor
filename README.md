@@ -11,9 +11,43 @@ Process **hundreds of images** on GPU with CUDA, measure transfer/compute time, 
 - Copies results back and writes to `output/`.
 - Logs timings (H2D, kernel, D2H, total) to `output/timings.csv`.
 
-## Build
-- Windows, CUDA 11.8 (for Maxwell cc 5.0 GPUs like MX130).
-- Open a **x64 Native Tools Command Prompt**.
-```bat
-make clean
-make
+## **Dependencies**
+- [CUDA Toolkit 11.8](https://developer.nvidia.com/cuda-11-8-0-download-archive)
+- [OpenCV 4.1.1](https://opencv.org/releases/)
+- Microsoft Visual Studio 2022 (x64 Native Tools Command Prompt)
+
+---
+
+## **Build Instructions**
+1. Open **"x64 Native Tools Command Prompt for VS 2022"**.
+2. Navigate to the project directory:
+   ``` cd C:\....Your Path Name to....\CUDA-Batch-Image-Processor ```
+3. Clean old Build (optional)
+    ```make clean ```
+4. Compile the Project
+    ```make ```
+5. Run the executable
+    ```.\bin\batch_proc.exe data\input output 1.2 20 4 ```
+    here, 
+        1.2 = brightness factor
+        20 = blur kernel size
+        4 = number of GPU streams
+
+## **Proof of Execution**
+![Terminal Run](proof/proof_terminal.png)
+
+    
+
+
+
+
+## **Lessons Learned**
+1. Linking CUDA with OpenCV requires careful management of NVCC flags and the Visual Studio toolchain.
+
+GPU parallelism significantly reduces processing time compared to CPU-only implementations.
+
+Batch processing with streams can overlap data transfer and computation for better performance.
+
+
+
+
