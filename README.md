@@ -50,9 +50,9 @@ CUDA-Batch-Image-Processor/
 ### Terminal Output
 ![Terminal Run](proof/proof_terminal.png)
 ### Input Sample
-![Input Sample](proof/proof_terminal.png)
+![Input Sample](proof/proof_input_sample.png)
 ### Output Sample
-![Output Sample](proof/proof_terminal.png)
+![Output Sample](proof/proof_output_sample.png)
 
     
 
