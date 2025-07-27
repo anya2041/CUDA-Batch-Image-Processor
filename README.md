@@ -50,29 +50,44 @@ CUDA-Batch-Image-Processor/
 ### Terminal Output
 ![Terminal Run](proof/Screenshot%20(1)%20Open_x64_Native_Tools.png)
 *Opening the "x64 Native Tools Command Prompt" to compile the project.*
+
+
 ![Terminal Run](proof/Screenshot%20(2)%20Navigate_to_Path_of_the_Folder.png)
-*Navigating to the project folder where the Makefile and source code are located. For me, it's in the Users\Anya\Downloads Folder*
+*Navigating to the project folder where the Makefile and source code are located. For me, it's in the Users\Anya\Downloads Folder.*
+
 ![Terminal Run](proof/Screenshot%20(3)_Project_Folder_Structure.png)
 *This is what my project folder structure looks like (src, data, bin, proof).*
+
 ![Terminal Run](proof/Screenshot%20(4)%20Input_Folder_with%20many%20images.png)
 *Contents of `data/input` containing 100 images to be processed.*
+
 ![Terminal Run](proof/Screenshot%20(5)_exe_file_generated%20after_running_Screenshot(7).png)
 *The executable `batch_proc.exe` generated after compilation.*
+
 ![Terminal Run](proof/Screenshot%20(6)%20Terminal_Run_make_clean_cmd.png)
 *Running `make clean` to remove old builds.*
+
 ![Terminal Run](proof/Screenshot%20(6.1).png)
 *Intermediate step showing build commands running.*
+
 ![Terminal Run](proof/Screenshot%20(6.2).png)
 *Final step of build process completed successfully.*
+
 ![Terminal Run](proof/Screenshot%20(7)%20Terminal_after_running_make_cmd.png)
-*Running `batch_proc.exe` on 100 images with specified parameters.*
+*Successful build confirmation after `make` command.*
+
 ![Terminal Run](proof/Screenshot%20(8)%20Terminal_Run_of_executable.png)
-*Shows progress of CUDA kernels running on batches.*
+*Running `batch_proc.exe` on 100 images with specified parameters.*
+
 ![Terminal Run](proof/Screenshot%20(8.1).png)
+*Shows progress of CUDA kernels running on batches.*
+
 ![Terminal Run](proof/Screenshot%20(9)%20Final_Terminal_run.png)
 *Final execution log with total timings.*
+
 ![Terminal Run](proof/Screenshot%20(10)%20How_output_folder_should_look_like.png)
 *Contents of `data/output` after processing (100 processed images) how it looks like*
+
 ![Terminal Run](proof/Screenshot%20(11)%20Timings_csv.png)
 *The `timings.csv` file showing H2D, kernel, and D2H timings.*
 
