@@ -54,7 +54,13 @@ CUDA-Batch-Image-Processor/
 ### Output Sample
 ![Output Sample](proof/proof_output_sample.png)
 
-    
+**Inference:**  
+The program successfully processed the entire batch of 100 images.  
+- Brightness was increased by a factor of `1.2`.  
+- A Gaussian blur with a kernel size of `20` was applied.  
+- The results were saved in the `output/` folder.  
+
+If additional images are added to the `data/input/` folder, the program will process all of them in one batch automatically.
 
 
 
@@ -62,9 +68,9 @@ CUDA-Batch-Image-Processor/
 ## **Lessons Learned**
 1. Linking CUDA with OpenCV requires careful management of NVCC flags and the Visual Studio toolchain.
 
-GPU parallelism significantly reduces processing time compared to CPU-only implementations.
+2. GPU parallelism significantly reduces processing time compared to CPU-only implementations.
 
-Batch processing with streams can overlap data transfer and computation for better performance.
+3. Batch processing with streams can overlap data transfer and computation for better performance.
 
 
 
