@@ -48,11 +48,27 @@ CUDA-Batch-Image-Processor/
 
 ## **Proof of Execution**
 ### Terminal Output
-![Terminal Run](proof/proof_terminal.png)
+![Terminal Run](proof/Screenshot%20(1)%20Open_x64_Native_Tools.png)
+![Terminal Run](proof/Screenshot%20(2)%20Navigate_to_Path_of_the_Folder.png)
+![Terminal Run](proof/Screenshot%20(3)_Project_Folder_Structure.png)
+![Terminal Run](proof/Screenshot%20(4)%20Input_Folder_with%20many%20images.png)
+![Terminal Run](proof/Screenshot%20(5)_exe_file_generated%20after_running_Screenshot(7).png)
+![Terminal Run](proof/Screenshot%20(6)%20Terminal_Run_make_clean_cmd.png)
+![Terminal Run](proof/Screenshot%20(6.1).png)
+![Terminal Run](proof/Screenshot%20(6.2).png)
+![Terminal Run](proof/Screenshot%20(7)%20Terminal_after_running_make_cmd.png)
+![Terminal Run](proof/Screenshot%20(8)%20Terminal_Run_of_executable.png)
+![Terminal Run](proof/Screenshot%20(8.1).png)
+![Terminal Run](proof/Screenshot%20(9)%20Final_Terminal_run.png)
+![Terminal Run](proof/Screenshot%20(9)%20Final_Terminal_run.png)
+![Terminal Run](proof/Screenshot%20(10)%20How_output_folder_should_look_like.png)
+![Terminal Run](proof/Screenshot%20(11)%20Timings_csv.png)
+
+
 ### Input Sample
-![Input Sample](proof/proof_input_sample.png)
+![Input Sample](proof/before_img_1.png)
 ### Output Sample
-![Output Sample](proof/proof_output_sample.png)
+![Output Sample](proof/after_img_1.png)
 
 **Inference:**  
 The program successfully processed the entire batch of 100 images.  
