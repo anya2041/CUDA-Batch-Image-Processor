@@ -11,6 +11,19 @@ Process **hundreds of images** on GPU with CUDA, measure transfer/compute time, 
 - Copies results back and writes to `output/`.
 - Logs timings (H2D, kernel, D2H, total) to `output/timings.csv`.
 
+## **Project Structure**
+CUDA-Batch-Image-Processor/
+│
+├── src/                # CUDA kernels and main.cu
+├── data/
+│   ├── input/          # Input images
+│   └── output/         # Processed images
+├── bin/                # Compiled executable
+├── proof/              # Screenshots for proof of execution
+├── Makefile            # Build instructions
+└── README.md           # Project documentation
+
+
 ## **Dependencies**
 - [CUDA Toolkit 11.8](https://developer.nvidia.com/cuda-11-8-0-download-archive)
 - [OpenCV 4.1.1](https://opencv.org/releases/)
@@ -34,7 +47,12 @@ Process **hundreds of images** on GPU with CUDA, measure transfer/compute time, 
         4 = number of GPU streams
 
 ## **Proof of Execution**
+### Terminal Output
 ![Terminal Run](proof/proof_terminal.png)
+### Input Sample
+![Input Sample](proof/proof_terminal.png)
+### Output Sample
+![Output Sample](proof/proof_terminal.png)
 
     
 
