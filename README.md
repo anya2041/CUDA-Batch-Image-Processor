@@ -52,6 +52,8 @@ CUDA-Batch-Image-Processor/
 *Opening the "x64 Native Tools Command Prompt" to compile the project.*
 
 
+
+
 ![Terminal Run](proof/Screenshot%20(2)%20Navigate_to_Path_of_the_Folder.png)
 *Navigating to the project folder where the Makefile and source code are located. For me, it's in the Users\Anya\Downloads Folder.*
 
